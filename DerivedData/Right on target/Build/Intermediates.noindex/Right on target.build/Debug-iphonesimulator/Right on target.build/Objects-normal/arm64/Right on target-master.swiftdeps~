@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1654686390, 630301952]
+build_end_time: [1654686395, 205666065]
+inputs:
+  "/Users/shredding/ALL MY/Programming/Swift/Right on target/Right on target/AppDelegate.swift": [1654685365, 701416969]
+  "/Users/shredding/ALL MY/Programming/Swift/Right on target/Right on target/SceneDelegate.swift": [1654685365, 703387975]
+  "/Users/shredding/ALL MY/Programming/Swift/Right on target/Right on target/ViewController.swift": [1654685365, 704149246]

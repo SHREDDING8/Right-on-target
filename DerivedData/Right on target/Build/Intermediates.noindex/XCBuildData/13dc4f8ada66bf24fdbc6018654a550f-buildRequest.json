@@ -1,0 +1,58 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "89edf358622e20dda6d90ba13df8e17a8a0e1a8ac1b785322f00cb92950a74af"
+    }
+  ],
+  "containerPath" : "/Users/shredding/ALL MY/Programming/Swift/Right on target/Right on target.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "iosmac",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/shredding/ALL MY/Programming/Swift/Right on target/DerivedData/Right on target/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/shredding/ALL MY/Programming/Swift/Right on target/DerivedData/Right on target/Build/Products",
+      "derivedDataPath" : "/Users/shredding/ALL MY/Programming/Swift/Right on target/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/shredding/ALL MY/Programming/Swift/Right on target/DerivedData/Right on target/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/shredding/ALL MY/Programming/Swift/Right on target/DerivedData/Right on target/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/shredding/ALL MY/Programming/Swift/Right on target/DerivedData/Right on target/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
