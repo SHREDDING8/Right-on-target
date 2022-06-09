@@ -257,6 +257,7 @@ SWIFT_CLASS("_TtC15Right_on_target14ViewController")
 - (void)viewDidLoad;
 - (IBAction)changedSlider:(UISlider * _Nonnull)sender;
 - (IBAction)checkButtonAction:(UIButton * _Nonnull)sender;
+- (IBAction)nextView:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

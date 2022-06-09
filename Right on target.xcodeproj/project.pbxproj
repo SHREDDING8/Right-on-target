@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE7DB0162851ED7D00A36D8B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7DB0152851ED7D00A36D8B /* Game.swift */; };
 		EEBAA0D02850B63500F7FA57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBAA0CF2850B63500F7FA57 /* AppDelegate.swift */; };
 		EEBAA0D22850B63500F7FA57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBAA0D12850B63500F7FA57 /* SceneDelegate.swift */; };
-		EEBAA0D42850B63500F7FA57 /* r.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBAA0D32850B63500F7FA57 /* r.swift */; };
+		EEBAA0D42850B63500F7FA57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBAA0D32850B63500F7FA57 /* ViewController.swift */; };
 		EEBAA0D72850B63500F7FA57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBAA0D52850B63500F7FA57 /* Main.storyboard */; };
 		EEBAA0D92850B63700F7FA57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBAA0D82850B63700F7FA57 /* Assets.xcassets */; };
 		EEBAA0DC2850B63700F7FA57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBAA0DA2850B63700F7FA57 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE7DB0152851ED7D00A36D8B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		EEBAA0CC2850B63500F7FA57 /* Right on target.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Right on target.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBAA0CF2850B63500F7FA57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEBAA0D12850B63500F7FA57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EEBAA0D32850B63500F7FA57 /* r.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = r.swift; sourceTree = "<group>"; };
+		EEBAA0D32850B63500F7FA57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EEBAA0D62850B63500F7FA57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEBAA0D82850B63700F7FA57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEBAA0DB2850B63700F7FA57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,16 +59,25 @@
 		EEBAA0CE2850B63500F7FA57 /* Right on target */ = {
 			isa = PBXGroup;
 			children = (
+				EEF951F92851ECF20058CA4F /* Model */,
 				EEBAA0E32850B63D00F7FA57 /* Right on target.entitlements */,
 				EEBAA0CF2850B63500F7FA57 /* AppDelegate.swift */,
 				EEBAA0D12850B63500F7FA57 /* SceneDelegate.swift */,
-				EEBAA0D32850B63500F7FA57 /* r.swift */,
+				EEBAA0D32850B63500F7FA57 /* ViewController.swift */,
 				EEBAA0D52850B63500F7FA57 /* Main.storyboard */,
 				EEBAA0D82850B63700F7FA57 /* Assets.xcassets */,
 				EEBAA0DA2850B63700F7FA57 /* LaunchScreen.storyboard */,
 				EEBAA0DD2850B63700F7FA57 /* Info.plist */,
 			);
 			path = "Right on target";
+			sourceTree = "<group>";
+		};
+		EEF951F92851ECF20058CA4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE7DB0152851ED7D00A36D8B /* Game.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEBAA0D42850B63500F7FA57 /* r.swift in Sources */,
+				EEBAA0D42850B63500F7FA57 /* ViewController.swift in Sources */,
 				EEBAA0D02850B63500F7FA57 /* AppDelegate.swift in Sources */,
 				EEBAA0D22850B63500F7FA57 /* SceneDelegate.swift in Sources */,
+				EE7DB0162851ED7D00A36D8B /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +316,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "shredding.Right-on-target";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
@@ -336,7 +348,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "shredding.Right-on-target";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;

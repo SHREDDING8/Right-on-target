@@ -20,6 +20,121 @@
       "children": [
         {
           "kind": "Var",
+          "name": "game",
+          "printedName": "game",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "Right_on_target.Game?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Game",
+                  "printedName": "Right_on_target.Game",
+                  "usr": "s:15Right_on_target4GameC"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15Right_on_target14ViewControllerC4gameAA4GameCSgvp",
+          "mangledName": "$s15Right_on_target14ViewControllerC4gameAA4GameCSgvp",
+          "moduleName": "Right_on_target",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Right_on_target.Game?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Game",
+                      "printedName": "Right_on_target.Game",
+                      "usr": "s:15Right_on_target4GameC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15Right_on_target14ViewControllerC4gameAA4GameCSgvg",
+              "mangledName": "$s15Right_on_target14ViewControllerC4gameAA4GameCSgvg",
+              "moduleName": "Right_on_target",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Right_on_target.Game?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Game",
+                      "printedName": "Right_on_target.Game",
+                      "usr": "s:15Right_on_target4GameC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15Right_on_target14ViewControllerC4gameAA4GameCSgvs",
+              "mangledName": "$s15Right_on_target14ViewControllerC4gameAA4GameCSgvs",
+              "moduleName": "Right_on_target",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15Right_on_target14ViewControllerC4gameAA4GameCSgvM",
+              "mangledName": "$s15Right_on_target14ViewControllerC4gameAA4GameCSgvM",
+              "moduleName": "Right_on_target",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
           "name": "mySlider",
           "printedName": "mySlider",
           "children": [
@@ -42,7 +157,7 @@
             "IBOutlet",
             "ObjC"
           ],
-          "fixedbinaryorder": 0,
+          "fixedbinaryorder": 1,
           "ownership": 1,
           "hasStorage": true,
           "accessors": [
@@ -158,7 +273,7 @@
             "IBOutlet",
             "ObjC"
           ],
-          "fixedbinaryorder": 1,
+          "fixedbinaryorder": 2,
           "ownership": 1,
           "hasStorage": true,
           "accessors": [
@@ -274,7 +389,7 @@
             "IBOutlet",
             "ObjC"
           ],
-          "fixedbinaryorder": 2,
+          "fixedbinaryorder": 3,
           "ownership": 1,
           "hasStorage": true,
           "accessors": [
@@ -368,190 +483,6 @@
         },
         {
           "kind": "Var",
-          "name": "comtuterNumber",
-          "printedName": "comtuterNumber",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Int",
-              "printedName": "Swift.Int",
-              "usr": "s:Si"
-            }
-          ],
-          "declKind": "Var",
-          "usr": "s:15Right_on_target14ViewControllerC14comtuterNumberSivp",
-          "mangledName": "$s15Right_on_target14ViewControllerC14comtuterNumberSivp",
-          "moduleName": "Right_on_target",
-          "isOpen": true,
-          "declAttributes": [
-            "Custom",
-            "HasInitialValue",
-            "HasStorage",
-            "RawDocComment"
-          ],
-          "fixedbinaryorder": 3,
-          "hasStorage": true,
-          "accessors": [
-            {
-              "kind": "Accessor",
-              "name": "Get",
-              "printedName": "Get()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Int",
-                  "printedName": "Swift.Int",
-                  "usr": "s:Si"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "s:15Right_on_target14ViewControllerC14comtuterNumberSivg",
-              "mangledName": "$s15Right_on_target14ViewControllerC14comtuterNumberSivg",
-              "moduleName": "Right_on_target",
-              "implicit": true,
-              "isOpen": true,
-              "accessorKind": "get"
-            },
-            {
-              "kind": "Accessor",
-              "name": "Set",
-              "printedName": "Set()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Void",
-                  "printedName": "()"
-                },
-                {
-                  "kind": "TypeNominal",
-                  "name": "Int",
-                  "printedName": "Swift.Int",
-                  "usr": "s:Si"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "s:15Right_on_target14ViewControllerC14comtuterNumberSivs",
-              "mangledName": "$s15Right_on_target14ViewControllerC14comtuterNumberSivs",
-              "moduleName": "Right_on_target",
-              "implicit": true,
-              "isOpen": true,
-              "accessorKind": "set"
-            },
-            {
-              "kind": "Accessor",
-              "name": "Modify",
-              "printedName": "Modify()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Void",
-                  "printedName": "()"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "s:15Right_on_target14ViewControllerC14comtuterNumberSivM",
-              "mangledName": "$s15Right_on_target14ViewControllerC14comtuterNumberSivM",
-              "moduleName": "Right_on_target",
-              "implicit": true,
-              "isOpen": true,
-              "accessorKind": "_modify"
-            }
-          ]
-        },
-        {
-          "kind": "Var",
-          "name": "round",
-          "printedName": "round",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Int",
-              "printedName": "Swift.Int",
-              "usr": "s:Si"
-            }
-          ],
-          "declKind": "Var",
-          "usr": "s:15Right_on_target14ViewControllerC5roundSivp",
-          "mangledName": "$s15Right_on_target14ViewControllerC5roundSivp",
-          "moduleName": "Right_on_target",
-          "isOpen": true,
-          "declAttributes": [
-            "Custom",
-            "HasInitialValue",
-            "HasStorage",
-            "RawDocComment"
-          ],
-          "fixedbinaryorder": 4,
-          "hasStorage": true,
-          "accessors": [
-            {
-              "kind": "Accessor",
-              "name": "Get",
-              "printedName": "Get()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Int",
-                  "printedName": "Swift.Int",
-                  "usr": "s:Si"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "s:15Right_on_target14ViewControllerC5roundSivg",
-              "mangledName": "$s15Right_on_target14ViewControllerC5roundSivg",
-              "moduleName": "Right_on_target",
-              "implicit": true,
-              "isOpen": true,
-              "accessorKind": "get"
-            },
-            {
-              "kind": "Accessor",
-              "name": "Set",
-              "printedName": "Set()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Void",
-                  "printedName": "()"
-                },
-                {
-                  "kind": "TypeNominal",
-                  "name": "Int",
-                  "printedName": "Swift.Int",
-                  "usr": "s:Si"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "s:15Right_on_target14ViewControllerC5roundSivs",
-              "mangledName": "$s15Right_on_target14ViewControllerC5roundSivs",
-              "moduleName": "Right_on_target",
-              "implicit": true,
-              "isOpen": true,
-              "accessorKind": "set"
-            },
-            {
-              "kind": "Accessor",
-              "name": "Modify",
-              "printedName": "Modify()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Void",
-                  "printedName": "()"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "s:15Right_on_target14ViewControllerC5roundSivM",
-              "mangledName": "$s15Right_on_target14ViewControllerC5roundSivM",
-              "moduleName": "Right_on_target",
-              "implicit": true,
-              "isOpen": true,
-              "accessorKind": "_modify"
-            }
-          ]
-        },
-        {
-          "kind": "Var",
           "name": "curValue",
           "printedName": "curValue",
           "children": [
@@ -568,12 +499,12 @@
           "moduleName": "Right_on_target",
           "isOpen": true,
           "declAttributes": [
-            "HasInitialValue",
             "Custom",
+            "HasInitialValue",
             "HasStorage",
             "RawDocComment"
           ],
-          "fixedbinaryorder": 5,
+          "fixedbinaryorder": 4,
           "hasStorage": true,
           "accessors": [
             {
@@ -643,98 +574,6 @@
           ]
         },
         {
-          "kind": "Var",
-          "name": "score",
-          "printedName": "score",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Int",
-              "printedName": "Swift.Int",
-              "usr": "s:Si"
-            }
-          ],
-          "declKind": "Var",
-          "usr": "s:15Right_on_target14ViewControllerC5scoreSivp",
-          "mangledName": "$s15Right_on_target14ViewControllerC5scoreSivp",
-          "moduleName": "Right_on_target",
-          "isOpen": true,
-          "declAttributes": [
-            "HasInitialValue",
-            "HasStorage",
-            "Custom",
-            "RawDocComment"
-          ],
-          "fixedbinaryorder": 6,
-          "hasStorage": true,
-          "accessors": [
-            {
-              "kind": "Accessor",
-              "name": "Get",
-              "printedName": "Get()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Int",
-                  "printedName": "Swift.Int",
-                  "usr": "s:Si"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "s:15Right_on_target14ViewControllerC5scoreSivg",
-              "mangledName": "$s15Right_on_target14ViewControllerC5scoreSivg",
-              "moduleName": "Right_on_target",
-              "implicit": true,
-              "isOpen": true,
-              "accessorKind": "get"
-            },
-            {
-              "kind": "Accessor",
-              "name": "Set",
-              "printedName": "Set()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Void",
-                  "printedName": "()"
-                },
-                {
-                  "kind": "TypeNominal",
-                  "name": "Int",
-                  "printedName": "Swift.Int",
-                  "usr": "s:Si"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "s:15Right_on_target14ViewControllerC5scoreSivs",
-              "mangledName": "$s15Right_on_target14ViewControllerC5scoreSivs",
-              "moduleName": "Right_on_target",
-              "implicit": true,
-              "isOpen": true,
-              "accessorKind": "set"
-            },
-            {
-              "kind": "Accessor",
-              "name": "Modify",
-              "printedName": "Modify()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Void",
-                  "printedName": "()"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "s:15Right_on_target14ViewControllerC5scoreSivM",
-              "mangledName": "$s15Right_on_target14ViewControllerC5scoreSivM",
-              "moduleName": "Right_on_target",
-              "implicit": true,
-              "isOpen": true,
-              "accessorKind": "_modify"
-            }
-          ]
-        },
-        {
           "kind": "Function",
           "name": "viewDidLoad",
           "printedName": "viewDidLoad()",
@@ -756,7 +595,8 @@
             "Dynamic",
             "ObjC",
             "Custom",
-            "Override"
+            "Override",
+            "RawDocComment"
           ],
           "funcSelfKind": "NonMutating"
         },
@@ -848,6 +688,35 @@
           "isOpen": true,
           "declAttributes": [
             "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "nextView",
+          "printedName": "nextView(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIButton",
+              "printedName": "UIKit.UIButton",
+              "usr": "c:objc(cs)UIButton"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Right_on_target@objc(cs)ViewController(im)nextView:",
+          "mangledName": "$s15Right_on_target14ViewControllerC04nextD0yySo8UIButtonCF",
+          "moduleName": "Right_on_target",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "IBAction",
+            "ObjC"
           ],
           "funcSelfKind": "NonMutating"
         },
@@ -1708,6 +1577,718 @@
           "printedName": "CustomDebugStringConvertible",
           "usr": "s:s28CustomDebugStringConvertibleP",
           "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Right_on_target",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GameProtocol",
+      "printedName": "GameProtocol",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "score",
+          "printedName": "score",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15Right_on_target12GameProtocolP5scoreSivp",
+          "mangledName": "$s15Right_on_target12GameProtocolP5scoreSivp",
+          "moduleName": "Right_on_target",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15Right_on_target12GameProtocolP5scoreSivg",
+              "mangledName": "$s15Right_on_target12GameProtocolP5scoreSivg",
+              "moduleName": "Right_on_target",
+              "genericSig": "<τ_0_0 where τ_0_0 : Right_on_target.GameProtocol>",
+              "sugared_genericSig": "<Self where Self : Right_on_target.GameProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "currentSecretValue",
+          "printedName": "currentSecretValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15Right_on_target12GameProtocolP18currentSecretValueSivp",
+          "mangledName": "$s15Right_on_target12GameProtocolP18currentSecretValueSivp",
+          "moduleName": "Right_on_target",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15Right_on_target12GameProtocolP18currentSecretValueSivg",
+              "mangledName": "$s15Right_on_target12GameProtocolP18currentSecretValueSivg",
+              "moduleName": "Right_on_target",
+              "genericSig": "<τ_0_0 where τ_0_0 : Right_on_target.GameProtocol>",
+              "sugared_genericSig": "<Self where Self : Right_on_target.GameProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "isGameEnded",
+          "printedName": "isGameEnded",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15Right_on_target12GameProtocolP02isD5EndedSbvp",
+          "mangledName": "$s15Right_on_target12GameProtocolP02isD5EndedSbvp",
+          "moduleName": "Right_on_target",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15Right_on_target12GameProtocolP02isD5EndedSbvg",
+              "mangledName": "$s15Right_on_target12GameProtocolP02isD5EndedSbvg",
+              "moduleName": "Right_on_target",
+              "genericSig": "<τ_0_0 where τ_0_0 : Right_on_target.GameProtocol>",
+              "sugared_genericSig": "<Self where Self : Right_on_target.GameProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "restartGame",
+          "printedName": "restartGame()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15Right_on_target12GameProtocolP07restartD0yyF",
+          "mangledName": "$s15Right_on_target12GameProtocolP07restartD0yyF",
+          "moduleName": "Right_on_target",
+          "genericSig": "<τ_0_0 where τ_0_0 : Right_on_target.GameProtocol>",
+          "sugared_genericSig": "<Self where Self : Right_on_target.GameProtocol>",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "startNewRound",
+          "printedName": "startNewRound()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15Right_on_target12GameProtocolP13startNewRoundyyF",
+          "mangledName": "$s15Right_on_target12GameProtocolP13startNewRoundyyF",
+          "moduleName": "Right_on_target",
+          "genericSig": "<τ_0_0 where τ_0_0 : Right_on_target.GameProtocol>",
+          "sugared_genericSig": "<Self where Self : Right_on_target.GameProtocol>",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "calculateScore",
+          "printedName": "calculateScore(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15Right_on_target12GameProtocolP14calculateScore4withySi_tF",
+          "mangledName": "$s15Right_on_target12GameProtocolP14calculateScore4withySi_tF",
+          "moduleName": "Right_on_target",
+          "genericSig": "<τ_0_0 where τ_0_0 : Right_on_target.GameProtocol>",
+          "sugared_genericSig": "<Self where Self : Right_on_target.GameProtocol>",
+          "protocolReq": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:15Right_on_target12GameProtocolP",
+      "mangledName": "$s15Right_on_target12GameProtocolP",
+      "moduleName": "Right_on_target"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Game",
+      "printedName": "Game",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "score",
+          "printedName": "score",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15Right_on_target4GameC5scoreSivp",
+          "mangledName": "$s15Right_on_target4GameC5scoreSivp",
+          "moduleName": "Right_on_target",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15Right_on_target4GameC5scoreSivg",
+              "mangledName": "$s15Right_on_target4GameC5scoreSivg",
+              "moduleName": "Right_on_target",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15Right_on_target4GameC5scoreSivs",
+              "mangledName": "$s15Right_on_target4GameC5scoreSivs",
+              "moduleName": "Right_on_target",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15Right_on_target4GameC5scoreSivM",
+              "mangledName": "$s15Right_on_target4GameC5scoreSivM",
+              "moduleName": "Right_on_target",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "currentSecretValue",
+          "printedName": "currentSecretValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15Right_on_target4GameC18currentSecretValueSivp",
+          "mangledName": "$s15Right_on_target4GameC18currentSecretValueSivp",
+          "moduleName": "Right_on_target",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15Right_on_target4GameC18currentSecretValueSivg",
+              "mangledName": "$s15Right_on_target4GameC18currentSecretValueSivg",
+              "moduleName": "Right_on_target",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15Right_on_target4GameC18currentSecretValueSivs",
+              "mangledName": "$s15Right_on_target4GameC18currentSecretValueSivs",
+              "moduleName": "Right_on_target",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15Right_on_target4GameC18currentSecretValueSivM",
+              "mangledName": "$s15Right_on_target4GameC18currentSecretValueSivM",
+              "moduleName": "Right_on_target",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "minSecretValue",
+          "printedName": "minSecretValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15Right_on_target4GameC14minSecretValue33_F3D1D29C5E9552150CD8CC915524FE79LLSivp",
+          "mangledName": "$s15Right_on_target4GameC14minSecretValue33_F3D1D29C5E9552150CD8CC915524FE79LLSivp",
+          "moduleName": "Right_on_target",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "maxSecretValue",
+          "printedName": "maxSecretValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15Right_on_target4GameC14maxSecretValue33_F3D1D29C5E9552150CD8CC915524FE79LLSivp",
+          "mangledName": "$s15Right_on_target4GameC14maxSecretValue33_F3D1D29C5E9552150CD8CC915524FE79LLSivp",
+          "moduleName": "Right_on_target",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "lastRound",
+          "printedName": "lastRound",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15Right_on_target4GameC9lastRound33_F3D1D29C5E9552150CD8CC915524FE79LLSivp",
+          "mangledName": "$s15Right_on_target4GameC9lastRound33_F3D1D29C5E9552150CD8CC915524FE79LLSivp",
+          "moduleName": "Right_on_target",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 4,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "currentRound",
+          "printedName": "currentRound",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15Right_on_target4GameC12currentRound33_F3D1D29C5E9552150CD8CC915524FE79LLSivp",
+          "mangledName": "$s15Right_on_target4GameC12currentRound33_F3D1D29C5E9552150CD8CC915524FE79LLSivp",
+          "moduleName": "Right_on_target",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "isGameEnded",
+          "printedName": "isGameEnded",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15Right_on_target4GameC02isD5EndedSbvp",
+          "mangledName": "$s15Right_on_target4GameC02isD5EndedSbvp",
+          "moduleName": "Right_on_target",
+          "isOpen": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15Right_on_target4GameC02isD5EndedSbvg",
+              "mangledName": "$s15Right_on_target4GameC02isD5EndedSbvg",
+              "moduleName": "Right_on_target",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(startvalue:endValue:rounds:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Right_on_target.Game?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Game",
+                  "printedName": "Right_on_target.Game",
+                  "usr": "s:15Right_on_target4GameC"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:15Right_on_target4GameC10startvalue8endValue6roundsACSgSi_S2itcfc",
+          "mangledName": "$s15Right_on_target4GameC10startvalue8endValue6roundsACSgSi_S2itcfc",
+          "moduleName": "Right_on_target",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "restartGame",
+          "printedName": "restartGame()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15Right_on_target4GameC07restartD0yyF",
+          "mangledName": "$s15Right_on_target4GameC07restartD0yyF",
+          "moduleName": "Right_on_target",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "startNewRound",
+          "printedName": "startNewRound()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15Right_on_target4GameC13startNewRoundyyF",
+          "mangledName": "$s15Right_on_target4GameC13startNewRoundyyF",
+          "moduleName": "Right_on_target",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "calculateScore",
+          "printedName": "calculateScore(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15Right_on_target4GameC14calculateScore4withySi_tF",
+          "mangledName": "$s15Right_on_target4GameC14calculateScore4withySi_tF",
+          "moduleName": "Right_on_target",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:15Right_on_target4GameC",
+      "mangledName": "$s15Right_on_target4GameC",
+      "moduleName": "Right_on_target",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "GameProtocol",
+          "printedName": "GameProtocol",
+          "usr": "s:15Right_on_target12GameProtocolP",
+          "mangledName": "$s15Right_on_target12GameProtocolP"
         }
       ]
     }
