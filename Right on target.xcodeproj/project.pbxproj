@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EE7DB0162851ED7D00A36D8B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7DB0152851ED7D00A36D8B /* Game.swift */; };
+		EE7DB01A2851FB6B00A36D8B /* GenereteRandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7DB0192851FB6B00A36D8B /* GenereteRandomNumber.swift */; };
 		EEBAA0D02850B63500F7FA57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBAA0CF2850B63500F7FA57 /* AppDelegate.swift */; };
 		EEBAA0D22850B63500F7FA57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBAA0D12850B63500F7FA57 /* SceneDelegate.swift */; };
 		EEBAA0D42850B63500F7FA57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBAA0D32850B63500F7FA57 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		EE7DB0152851ED7D00A36D8B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		EE7DB0192851FB6B00A36D8B /* GenereteRandomNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenereteRandomNumber.swift; sourceTree = "<group>"; };
 		EEBAA0CC2850B63500F7FA57 /* Right on target.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Right on target.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBAA0CF2850B63500F7FA57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEBAA0D12850B63500F7FA57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				EE7DB0152851ED7D00A36D8B /* Game.swift */,
+				EE7DB0192851FB6B00A36D8B /* GenereteRandomNumber.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				EEBAA0D42850B63500F7FA57 /* ViewController.swift in Sources */,
 				EEBAA0D02850B63500F7FA57 /* AppDelegate.swift in Sources */,
 				EEBAA0D22850B63500F7FA57 /* SceneDelegate.swift in Sources */,
+				EE7DB01A2851FB6B00A36D8B /* GenereteRandomNumber.swift in Sources */,
 				EE7DB0162851ED7D00A36D8B /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

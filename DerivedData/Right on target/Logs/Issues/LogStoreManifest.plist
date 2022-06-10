@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>09D3C7E0-E2C2-43B2-97F2-037D9419E05D</key>
+		<key>B0E8D7E8-7A7E-4F33-BAE2-3B74FB32B811</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>09D3C7E0-E2C2-43B2-97F2-037D9419E05D.xcactivitylog</string>
+			<string>B0E8D7E8-7A7E-4F33-BAE2-3B74FB32B811.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>Right_on_target-butxmpsxmffkxkcmxlrrxbavjqqn</string>
 			<key>timeStartedRecording</key>
-			<real>676460123.986444</real>
+			<real>676462510.68941796</real>
 			<key>timeStoppedRecording</key>
-			<real>676460125.175488</real>
+			<real>676462511.63279402</real>
 			<key>title</key>
 			<string>Build target Right on target</string>
 			<key>uniqueIdentifier</key>
-			<string>09D3C7E0-E2C2-43B2-97F2-037D9419E05D</string>
+			<string>B0E8D7E8-7A7E-4F33-BAE2-3B74FB32B811</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

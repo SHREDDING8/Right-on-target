@@ -56,7 +56,7 @@ class Game:GameProtocol{
     
     
     private func getNewSecretValue() ->Int{
-        return Int.random(in: self.minSecretValue...self.maxSecretValue)
+         return GenerateRandomValue.GenerateRandomValueNumber(self.minSecretValue, self.maxSecretValue)
     }
     
     public func restartGame() {

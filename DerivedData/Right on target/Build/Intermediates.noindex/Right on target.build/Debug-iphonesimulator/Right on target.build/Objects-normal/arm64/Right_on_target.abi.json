@@ -1592,6 +1592,137 @@
     },
     {
       "kind": "TypeDecl",
+      "name": "GenerateRandomValueProtocol",
+      "printedName": "GenerateRandomValueProtocol",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "GenerateRandomValueNumber",
+          "printedName": "GenerateRandomValueNumber(_:_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15Right_on_target27GenerateRandomValueProtocolP0deF6NumberyS2i_SitFZ",
+          "mangledName": "$s15Right_on_target27GenerateRandomValueProtocolP0deF6NumberyS2i_SitFZ",
+          "moduleName": "Right_on_target",
+          "genericSig": "<τ_0_0 where τ_0_0 : Right_on_target.GenerateRandomValueProtocol>",
+          "sugared_genericSig": "<Self where Self : Right_on_target.GenerateRandomValueProtocol>",
+          "static": true,
+          "protocolReq": true,
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:15Right_on_target27GenerateRandomValueProtocolP",
+      "mangledName": "$s15Right_on_target27GenerateRandomValueProtocolP",
+      "moduleName": "Right_on_target"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GenerateRandomValue",
+      "printedName": "GenerateRandomValue",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "GenerateRandomValueNumber",
+          "printedName": "GenerateRandomValueNumber(_:_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15Right_on_target19GenerateRandomValueC0deF6NumberyS2i_SitFZ",
+          "mangledName": "$s15Right_on_target19GenerateRandomValueC0deF6NumberyS2i_SitFZ",
+          "moduleName": "Right_on_target",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GenerateRandomValue",
+              "printedName": "Right_on_target.GenerateRandomValue",
+              "usr": "s:15Right_on_target19GenerateRandomValueC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:15Right_on_target19GenerateRandomValueCACycfc",
+          "mangledName": "$s15Right_on_target19GenerateRandomValueCACycfc",
+          "moduleName": "Right_on_target",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:15Right_on_target19GenerateRandomValueC",
+      "mangledName": "$s15Right_on_target19GenerateRandomValueC",
+      "moduleName": "Right_on_target",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "GenerateRandomValueProtocol",
+          "printedName": "GenerateRandomValueProtocol",
+          "usr": "s:15Right_on_target27GenerateRandomValueProtocolP",
+          "mangledName": "$s15Right_on_target27GenerateRandomValueProtocolP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Right_on_target",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
       "name": "GameProtocol",
       "printedName": "GameProtocol",
       "children": [
