@@ -242,12 +242,25 @@ SWIFT_CLASS("_TtC15Right_on_target13SceneDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UISlider;
-@class UILabel;
 @class UIButton;
+@class UILabel;
 @class NSString;
 @class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC15Right_on_target25SelectColorViewController")
+@interface SelectColorViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified buttonFirstChoiceOutlet;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified currentColor;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified buttonSecondChoiceOutlet;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified buttonThirdChoiceOutlet;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified buttonFourthChoiceOutlet;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UISlider;
 
 SWIFT_CLASS("_TtC15Right_on_target14ViewController")
 @interface ViewController : UIViewController
@@ -257,6 +270,7 @@ SWIFT_CLASS("_TtC15Right_on_target14ViewController")
 - (void)viewDidLoad;
 - (IBAction)changedSlider:(UISlider * _Nonnull)sender;
 - (IBAction)checkButtonAction:(UIButton * _Nonnull)sender;
+- (IBAction)nextView:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

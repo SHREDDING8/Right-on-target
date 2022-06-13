@@ -1,8 +1,12 @@
 version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
 options: "7ec811b1b4589f75fafbe6cd5d618523e5aa46e332d5f88bec228a62af73a49c"
-build_start_time: [1654759816, 153356075]
-build_end_time: [1654759816, 799521923]
+build_start_time: [1655033022, 294772148]
+build_end_time: [1655033022, 749153137]
 inputs:
-  "/Users/shredding/ALL MY/Programming/Swift/Right on target/Right on target/AppDelegate.swift": [1654685365, 701416969]
-  "/Users/shredding/ALL MY/Programming/Swift/Right on target/Right on target/SceneDelegate.swift": [1654685365, 703387975]
-  "/Users/shredding/ALL MY/Programming/Swift/Right on target/Right on target/r.swift": [1654759813, 876253128]
+  "/Users/shredding/ALL MY/Programming/Swift/Right on target/Right on target/AppDelegate.swift": [1654891147, 79618453]
+  "/Users/shredding/ALL MY/Programming/Swift/Right on target/Right on target/Model/Game.swift": [1654769710, 585362911]
+  "/Users/shredding/ALL MY/Programming/Swift/Right on target/Right on target/Model/GameColor.swift": [1654892555, 453899383]
+  "/Users/shredding/ALL MY/Programming/Swift/Right on target/Right on target/Model/GenereteRandomNumber.swift": [1654886520, 216333389]
+  "/Users/shredding/ALL MY/Programming/Swift/Right on target/Right on target/SceneDelegate.swift": [1655033021, 889255523]
+  "/Users/shredding/ALL MY/Programming/Swift/Right on target/Right on target/SelectColorViewController.swift": [1654891470, 110516548]
+  "/Users/shredding/ALL MY/Programming/Swift/Right on target/Right on target/ViewController.swift": [1654767231, 211392164]

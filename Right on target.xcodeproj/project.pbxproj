@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE310BAA28538058004E77D2 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE310BA928538058004E77D2 /* GameColor.swift */; };
 		EE7DB0162851ED7D00A36D8B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7DB0152851ED7D00A36D8B /* Game.swift */; };
 		EE7DB01A2851FB6B00A36D8B /* GenereteRandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7DB0192851FB6B00A36D8B /* GenereteRandomNumber.swift */; };
 		EEBAA0D02850B63500F7FA57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBAA0CF2850B63500F7FA57 /* AppDelegate.swift */; };
@@ -15,9 +16,11 @@
 		EEBAA0D72850B63500F7FA57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBAA0D52850B63500F7FA57 /* Main.storyboard */; };
 		EEBAA0D92850B63700F7FA57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBAA0D82850B63700F7FA57 /* Assets.xcassets */; };
 		EEBAA0DC2850B63700F7FA57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBAA0DA2850B63700F7FA57 /* LaunchScreen.storyboard */; };
+		EED0171A285361B000F05439 /* SelectColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED01719285361B000F05439 /* SelectColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE310BA928538058004E77D2 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
 		EE7DB0152851ED7D00A36D8B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		EE7DB0192851FB6B00A36D8B /* GenereteRandomNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenereteRandomNumber.swift; sourceTree = "<group>"; };
 		EEBAA0CC2850B63500F7FA57 /* Right on target.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Right on target.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +32,7 @@
 		EEBAA0DB2850B63700F7FA57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEBAA0DD2850B63700F7FA57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEBAA0E32850B63D00F7FA57 /* Right on target.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Right on target.entitlements"; sourceTree = "<group>"; };
+		EED01719285361B000F05439 /* SelectColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 				EEBAA0CF2850B63500F7FA57 /* AppDelegate.swift */,
 				EEBAA0D12850B63500F7FA57 /* SceneDelegate.swift */,
 				EEBAA0D32850B63500F7FA57 /* ViewController.swift */,
+				EED01719285361B000F05439 /* SelectColorViewController.swift */,
 				EEBAA0D52850B63500F7FA57 /* Main.storyboard */,
 				EEBAA0D82850B63700F7FA57 /* Assets.xcassets */,
 				EEBAA0DA2850B63700F7FA57 /* LaunchScreen.storyboard */,
@@ -79,6 +84,7 @@
 			children = (
 				EE7DB0152851ED7D00A36D8B /* Game.swift */,
 				EE7DB0192851FB6B00A36D8B /* GenereteRandomNumber.swift */,
+				EE310BA928538058004E77D2 /* GameColor.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,6 +164,8 @@
 				EEBAA0D02850B63500F7FA57 /* AppDelegate.swift in Sources */,
 				EEBAA0D22850B63500F7FA57 /* SceneDelegate.swift in Sources */,
 				EE7DB01A2851FB6B00A36D8B /* GenereteRandomNumber.swift in Sources */,
+				EE310BAA28538058004E77D2 /* GameColor.swift in Sources */,
+				EED0171A285361B000F05439 /* SelectColorViewController.swift in Sources */,
 				EE7DB0162851ED7D00A36D8B /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
